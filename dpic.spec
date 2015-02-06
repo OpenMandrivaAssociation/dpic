@@ -1,6 +1,6 @@
 Name:		dpic
 Version:	2013.03.10
-Release:	1
+Release:	2
 Summary:	Pic language processor
 License:	BSD
 Group:		Publishing
