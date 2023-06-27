@@ -6,6 +6,7 @@ License:	BSD
 Group:		Publishing
 URL:		http://www.ece.uwaterloo.ca/~aplevich/dpic/
 Source0:	https://ece.uwaterloo.ca/~aplevich/dpic/%{name}-%{version}.tar.gz
+BuildRequires:  texlive-latex.bin
 
 %description
 Pic language processor for LaTeX documents or web sites.
