@@ -26,7 +26,7 @@ Pic language processor for LaTeX documents or web sites.
 %build
 %configure
 %make_build
-%make_build -C doc
+#make_build -C doc
 
 %install
 %make_install
