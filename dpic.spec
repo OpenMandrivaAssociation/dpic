@@ -22,10 +22,14 @@ Pic language processor for LaTeX documents or web sites.
 %autosetup -p1
 
 %build
-%setup_compile_flags
-%make
+%configure
+%make_build
+%make_build -C doc
 
 %install
-install -Dm 0755 %{name} %{buildroot}%{_bindir}/%{name}
-install -Dm 0644 doc/%{name}.1 %{buildroot}%{_mandir}/man1/%{name}.1
-
+%make_install
+install -d %{buildroot}%{_datadir}/%{name}/doc
+install -Dm 644 doc/dpic.1 %{buildroot}%{_mandir}/man1/dpic.1
+mv %{buildroot}/bin %{buildroot}%{_prefix}/
+mv %{buildroot}/share/doc/dpic/dpictools.pic %{buildroot}%{_datadir}/%{name}/doc/
+rm -rf %{buildroot}/share
