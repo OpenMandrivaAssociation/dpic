@@ -19,7 +19,7 @@ Pic language processor for LaTeX documents or web sites.
 #--------------------------------------------------------------------
 
 %prep
-%setup -qn %{name}
+%autosetup -p1
 chmod 0644 README CHANGES doc/dpicdoc.pdf
 
 %build
