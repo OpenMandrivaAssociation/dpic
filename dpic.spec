@@ -1,11 +1,11 @@
 Name:		dpic
-Version:	2013.03.10
-Release:	2
+Version:	2023.06.01
+Release:	1
 Summary:	Pic language processor
 License:	BSD
 Group:		Publishing
 URL:		http://www.ece.uwaterloo.ca/~aplevich/dpic/
-Source0:	%{name}-%{version}.tar.gz
+Source0:	https://ece.uwaterloo.ca/~aplevich/dpic/%{name}-%{version}.tar.gz
 
 %description
 Pic language processor for LaTeX documents or web sites.
