@@ -1,3 +1,5 @@
+%define _empty_manifest_terminate_build 0
+
 Name:		dpic
 Version:	2023.06.01
 Release:	1
