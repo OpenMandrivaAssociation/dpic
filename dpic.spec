@@ -1,7 +1,7 @@
 %define _empty_manifest_terminate_build 0
 
 Name:		dpic
-Version:	2023.06.01
+Version:	2024.01.01
 Release:	1
 Summary:	Pic language processor
 License:	BSD
