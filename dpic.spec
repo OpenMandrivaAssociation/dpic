@@ -6,7 +6,7 @@ Release:	1
 Summary:	Pic language processor
 License:	BSD
 Group:		Publishing
-URL:		http://www.ece.uwaterloo.ca/~aplevich/dpic/
+URL:		https://www.ece.uwaterloo.ca/~aplevich/dpic/
 Source0:	https://ece.uwaterloo.ca/~aplevich/dpic/%{name}-%{version}.tar.gz
 BuildRequires:  texlive-latex.bin
 BuildRequires:	texlive-mkjobtexmf
