@@ -8,6 +8,11 @@ License:	BSD
 Group:		Publishing
 URL:		https://www.ece.uwaterloo.ca/~aplevich/dpic/
 Source0:	https://ece.uwaterloo.ca/~aplevich/dpic/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  texlive-latex.bin
 BuildRequires:	texlive-mkjobtexmf
 
